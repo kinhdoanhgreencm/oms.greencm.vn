@@ -110,7 +110,7 @@ const App: React.FC = () => {
       {/* Sidebar */}
       <aside className={`${isSidebarOpen ? 'w-64' : 'w-20'} bg-white border-r border-gray-200 transition-all duration-300 flex flex-col z-30`}>
         <div className="p-6 flex items-center gap-3">
-          <div className="bg-vinfast-blue p-2 rounded-lg shrink-0">
+          <div className="bg-vinfast-blue p-2 rounded-lg shrink-0 w-11 h-11 flex items-center justify-center">
             <div className="text-white font-bold text-xl tracking-tighter">V</div>
           </div>
           {isSidebarOpen && <span className="font-bold text-lg text-[#004182] whitespace-nowrap">VinFast EV-CRM</span>}
